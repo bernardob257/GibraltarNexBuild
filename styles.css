@@ -527,3 +527,18 @@ button {
     width: min(440px, 92vw);
   }
 }
+.hero-logo {
+    display: block;
+    width: 100%;
+    max-width: 620px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    filter: drop-shadow(0 0 28px rgba(0, 132, 255, 0.25));
+}
+
+.hero-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
